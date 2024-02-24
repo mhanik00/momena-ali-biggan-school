@@ -1,0 +1,229 @@
+/* body and header */
+body {
+  background-color: #e2f7e0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b0e6b6d2;
+}
+/* .... */
+/* logo and log h1 */
+#logo {
+  height: 60px;
+}
+#logo-h {
+  display: flex;
+}
+/* .... */
+/* navigation list */
+li {
+  display: inline;
+}
+a {
+  padding: 5px;
+  color: black;
+  font-weight: 500;
+  font-size: large;
+  text-decoration: none;
+  margin-right: 10px;
+}
+/* .... */
+/* section one class */
+.hero {
+  margin-top: 20px;
+}
+/* .. */
+/* section one div class */
+.her {
+  display: flex;
+  justify-content: space-between;
+}
+/* ... */
+/* s one image and text class */
+.profile {
+  height: 500px;
+}
+.text {
+  text-align: justify;
+  padding: 15px 15px;
+}
+/* ... */
+
+/* btn div */
+.btnn {
+  display: flex;
+  justify-content: right;
+}
+/* button tag class */
+.btn {
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: whitesmoke;
+  box-shadow: 5px 5px 5px 5px #d2d1d1;
+}
+/* .... */
+/* marque style */
+.marque {
+  padding: 10px 15px;
+}
+/* section one heading img and img div class link button... */
+.teacher-head {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.timg {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tone {
+  box-shadow: 20px 15px 15px #aafcbab3;
+  width: 600px;
+  border: 10px solid rgb(244, 250, 247);
+  border-radius: 10px;
+}
+.ttwo {
+  box-shadow: 20px 15px 15px #aafcbab3;
+  width: 600px;
+  border: 10px solid rgb(246, 251, 247);
+  border-radius: 10px;
+}
+.see {
+  display: flex;
+  justify-content: right;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+.seea {
+  color: blueviolet;
+  text-decoration: underline;
+}
+/* ..... */
+/* section two all */
+.tour {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.study {
+  border: 6px solid rgba(253, 253, 251, 0.947);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #aafcbab3;
+}
+/* .. */
+/* section three table */
+table,
+th,
+tr,
+td {
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px rgba(239, 170, 245, 0.991);
+  border-collapse: collapse;
+  padding: 20px 20px;
+  text-align: center;
+}
+th {
+  background-color: rgb(94, 151, 94);
+  color: white;
+}
+/* ... */
+/* table and form display */
+.tf {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ... */
+
+/* section two form */
+.form {
+  padding: 5px 15px;
+  margin-right: 55px;
+  margin-bottom: 10px;
+  border: 5px solid rgb(144, 251, 98);
+  box-shadow: 5px 5px 25px rgba(245, 154, 246, 0.991);
+}
+input {
+  display: block;
+  height: 25px;
+  padding-top: 5px;
+  margin: 15px auto;
+  border: 4px solid greenyellow;
+  text-align: center;
+  font-family: cursive;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(94, 151, 94);
+  color: whitesmoke;
+  box-shadow: 5px 5px 5px 5px #d7e4cc;
+}
+/* .... */
+/* form image */
+.svgd {
+  display: flex;
+  justify-content: space-between;
+}
+.svg {
+  height: 100px;
+}
+/* .... */
+/* ..contact section */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color: rgb(57, 53, 49);
+}
+/* info about school */
+.info-box {
+  padding: 50px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #3f3f3e;
+  color: rgb(254, 254, 254);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  margin: 10px;
+}
+/* hover effect */
+.info-box:hover {
+  transform: scale(1.05);
+  background-color: #788a70;
+}
+/* ... */
+/* info and contact size and color... */
+.school-info {
+  margin-right: 0;
+  color: #fff;
+}
+
+.contact-info {
+  margin-left: 0;
+}
+
+.contact-section h1 h2 p {
+  color: #f5f5f5;
+}
+/* ... */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  position: sticky;
+  width: 100%;
+}
+/* ..... */
